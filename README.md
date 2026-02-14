@@ -39,21 +39,12 @@ npm start
 Project Documentation
 For Software:
 Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name) Add caption explaining what this shows
+<img width="1920" height="1008" alt="caretaker" src="https://github.com/user-attachments/assets/78b56cbd-8607-41f1-ac2a-8f2ac080bb07" />
+<img width="1920" height="1008" alt="patient" src="https://github.com/user-attachments/assets/2f4a339f-8f6f-4bbf-8467-8d9c9d8d0fdb" />
+<img width="1920" height="1008" alt="login" src="https://github.com/user-attachments/assets/06636598-95be-4588-be2e-04f40ce65dcb" />
 
-![Screenshot2](Add screenshot 2 here with proper name) Add caption explaining what this shows
-
-![Screenshot3](Add screenshot 3 here with proper name) Add caption explaining what this shows
-
-Diagrams
-System Architecture:
-
-Architecture Diagram Explain your system architecture - components, data flow, tech stack interaction
-
-Application Workflow:
-
-Workflow Add caption explaining your workflow
-
+Diagram
+![flowchart](https://github.com/user-attachments/assets/a9d34115-029c-464c-9b51-9a83cf01b76d)
 
 Build Photos
 ![Team](Add photo of your team here)
