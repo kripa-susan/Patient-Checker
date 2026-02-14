@@ -3,20 +3,20 @@
 </p>
 
 
-[Project Name] 🎯
+Patient Checker 🎯
 Basic Details
-Team Name: [Name]
+Team Name: Digit
 Team Members
-Member 1: [Name] - [College]
-Member 2: [Name] - [College]
+Member 1: Kripa Susan Gregory T - Jyothi Engineering College
+Member 2: Gopika P - Jyothi Engineering College
 Hosted Project Link
 [mention your project hosted link here]
 
 Project Description
-[2-3 lines about what your project does]
+The Patient Checker Web Application allows patients to update their daily health status easily. If medicines are not taken, the patient feels unwell, or an emergency button is pressed, automatic alerts are sent to the caretaker. The system provides secure login using email and password with separate dashboards for patients and caretakers.
 
 The Problem statement
-[What problem are you solving?]
+Elderly and chronically ill patients often forget to take their medicines and update their health status regularly. In emergency situations, caretakers are not informed immediately, which can lead to serious risks. Manual monitoring methods are unreliable and cause delays in timely care.
 
 The Solution
 [How are you solving it?]
@@ -25,10 +25,10 @@ Technical Details
 Technologies/Components Used
 For Software:
 
-Languages used: [e.g., JavaScript, Python, Java]
+Languages used: JavaScript, HTML, CSS, MySQL
 Frameworks used: [e.g., React, Django, Spring Boot]
 Libraries used: [e.g., axios, pandas, JUnit]
-Tools used: [e.g., VS Code, Git, Docker]
+Tools used: VS Code
 For Hardware:
 
 Main components: [List main components]
