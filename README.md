@@ -30,9 +30,11 @@ Tools used: VS Code
 
 For Software:
 Installation
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+npm install
+npm start
+
 Run
-[Run commands - e.g., npm start, python app.py]
+npm start
 
 Project Documentation
 For Software:
@@ -56,16 +58,11 @@ Workflow Add caption explaining your workflow
 Build Photos
 ![Team](Add photo of your team here)
 
-![Components](Add photo of your components here) List out all components shown
-
-![Build](Add photos of build process here) Explain the build steps
-
-![Final](Add photo of final product here) Explain the final build
 
 Additional Documentation
 For Web Projects with Backend:
 API Documentation
-Base URL: https://api.yourproject.com
+Base URL: https://patientchecker.netlify.app/
 
 Endpoints
 GET /api/endpoint
