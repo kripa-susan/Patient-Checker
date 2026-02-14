@@ -116,9 +116,9 @@ Video
 Explain what the video demonstrates - key features, user flow, technical highlights
 
 AI Tools Used (Optional - For Transparency Bonus)
-If you used AI tools during development, document them here for transparency:
+Chatgpt
 
-Tool Used: [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
+Tool Used: Chatgpt
 
 Purpose: [What you used it for]
 
