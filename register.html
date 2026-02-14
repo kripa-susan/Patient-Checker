@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form action="/register" method="POST">
+  <h2>New Registration</h2>
+
+  <select name="role" id="role" onchange="showFields()" required>
+    <option value="">Register As</option>
+    <option value="patient">Patient</option>
+    <option value="caretaker">Caretaker</option>
+  </select>
+
+  <input name="name" placeholder="Name" required>
+  <input type="email" name="email" placeholder="Email" required>
+  <input name="phone" placeholder="Phone Number" required>
+  <input type="password" name="password" placeholder="Create Password" required>
+  <input name="locality" placeholder="Locality" required>
+
+  <div id="patient" style="display:none;">
+    <input name="patientContact" placeholder="Patient Contact">
+    <input name="familyContact" placeholder="Family Contact">
+    <textarea name="medical" placeholder="Medical Records"></textarea>
+  </div>
+
+  <div id="caretaker" style="display:none;">
+    <input name="age" placeholder="Age">
+    <input name="experience" placeholder="Experience (years)">
+  </div>
+
+  <button type="submit">Register</button>
+</form>
+
+<script>
+function showFields() {
+  const r = document.getElementById("role").value;
+  document.getElementById("patient").style.display =
+    r === "patient" ? "block" : "none";
+  document.getElementById("caretaker").style.display =
+    r === "caretaker" ? "block" : "none";
+}
+</script>
+
+</body>
+</html>

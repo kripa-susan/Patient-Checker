@@ -1,0 +1,31 @@
+body {
+  background: #f4f6f8;
+  font-family: Arial;
+}
+
+form, .box {
+  width: 320px;
+  margin: 80px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+}
+
+input, select, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+}
+
+.green { background: #2ecc71; color: white; }
+.red { background: #e74c3c; color: white; }
+
+.alert {
+  color: red;
+  font-weight: bold;
+}
