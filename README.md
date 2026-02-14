@@ -28,6 +28,14 @@ For Software:
 Languages used: JavaScript, HTML, CSS, MySQL
 Tools used: VS Code
 
+Features
+Feature 1: Daily health status update form
+Feature 2: Medicine intake confirmation tracking
+Feature 3: Automatic email/SMS alerts to caretakers
+Feature 4: Emergency alert button
+Feature 5: Dashboard for caretaker monitoring
+Feature 6: Secure login authentication
+
 For Software:
 Installation
 npm install
@@ -36,27 +44,37 @@ npm start
 Run
 npm start
 
+Backend
+node server.js
+
 Project Documentation
 For Software:
 Screenshots (Add at least 3)
-<img width="1920" height="1008" alt="caretaker" src="https://github.com/user-attachments/assets/78b56cbd-8607-41f1-ac2a-8f2ac080bb07" />
-<img width="1920" height="1008" alt="patient" src="https://github.com/user-attachments/assets/2f4a339f-8f6f-4bbf-8467-8d9c9d8d0fdb" />
+<img width="1920" height="1008" alt="caretaker" src="https://github.com/user-attachments/assets/78b56cbd-8607-41f1-ac2a-8f2ac080bb07" />Caretaker dashboard displaying patient status
+<img width="1920" height="1008" alt="patient" src="https://github.com/user-attachments/assets/2f4a339f-8f6f-4bbf-8467-8d9c9d8d0fdb" />Patient dashboard showing daily health update form
 <img width="1920" height="1008" alt="login" src="https://github.com/user-attachments/assets/06636598-95be-4588-be2e-04f40ce65dcb" />
 
 Diagram
 ![flowchart](https://github.com/user-attachments/assets/a9d34115-029c-464c-9b51-9a83cf01b76d)
+Data Flow:
+Patient → Frontend → Backend API → Database
+If medicine missed → Alert Trigger → Caretaker Notification
 
 Build Photos
 ![Team](Add photo of your team here)
 
-
-Additional Documentation
-For Web Projects with Backend:
 API Documentation
-Base URL: https://patientchecker.netlify.app/
+Base URL:https://patientchecker.netlify.app/
 
 Endpoints
 GET /api/endpoint
+{
+  "status": "success",
+  "data": {
+    "name": "John",
+    "medicineTaken": true
+  }
+}
 
 Description: [What it does]
 Parameters:
@@ -69,16 +87,24 @@ Response:
 }
 POST /api/endpoint
 
-Description: [What it does]
+Description: Submit daily health update
 Request Body:
 {
-  "field1": "value1",
-  "field2": "value2"
+  "temperature": 98.6,
+  "bp": "120/80",
+  "medicineTaken": false
 }
 Response:
 {
   "status": "success",
-  "message": "Operation completed"
+  "message": "Health update recorded"
+}
+
+Emergency Response:
+Description:Trigger emergency alert
+{
+  "status": "success",
+  "message": "Emergency alert sent to caretaker"
 }
 [Add more endpoints as needed...]
 
