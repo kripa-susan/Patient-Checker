@@ -19,40 +19,20 @@ The Problem statement
 Elderly and chronically ill patients often forget to take their medicines and update their health status regularly. In emergency situations, caretakers are not informed immediately, which can lead to serious risks. Manual monitoring methods are unreliable and cause delays in timely care.
 
 The Solution
-[How are you solving it?]
+The proposed solution is a Patient Checker web app that allows patients to update their daily health status and confirm medication intake. It sends automatic alerts to caretakers for missed medicines, health issues, or emergencies. This ensures timely communication, faster response, and better patient monitoring.
 
 Technical Details
 Technologies/Components Used
 For Software:
 
 Languages used: JavaScript, HTML, CSS, MySQL
-Frameworks used: [e.g., React, Django, Spring Boot]
-Libraries used: [e.g., axios, pandas, JUnit]
 Tools used: VS Code
-For Hardware:
 
-Main components: [List main components]
-Specifications: [Technical specifications]
-Tools required: [List tools needed]
-Features
-List the key features of your project:
-
-Feature 1: [Description]
-Feature 2: [Description]
-Feature 3: [Description]
-Feature 4: [Description]
-Implementation
 For Software:
 Installation
 [Installation commands - e.g., npm install, pip install -r requirements.txt]
 Run
 [Run commands - e.g., npm start, python app.py]
-For Hardware:
-Components Required
-[List all components needed with specifications]
-
-Circuit Setup
-[Explain how to set up the circuit]
 
 Project Documentation
 For Software:
@@ -72,11 +52,6 @@ Application Workflow:
 
 Workflow Add caption explaining your workflow
 
-For Hardware:
-Schematic & Circuit
-![Circuit](Add your circuit diagram here) Add caption explaining connections
-
-![Schematic](Add your schematic diagram here) Add caption explaining the schematic
 
 Build Photos
 ![Team](Add photo of your team here)
@@ -151,37 +126,6 @@ flutter build apk
 flutter build ios
 # or
 xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
-For Hardware Projects:
-Bill of Materials (BOM)
-Component	Quantity	Specifications	Price	Link/Source
-Arduino Uno	1	ATmega328P, 16MHz	₹450	[Link]
-LED	5	Red, 5mm, 20mA	₹5 each	[Link]
-Resistor	5	220Ω, 1/4W	₹1 each	[Link]
-Breadboard	1	830 points	₹100	[Link]
-Jumper Wires	20	Male-to-Male	₹50	[Link]
-[Add more...]				
-Total Estimated Cost: ₹[Amount]
-
-Assembly Instructions
-Step 1: Prepare Components
-
-Gather all components listed in the BOM
-Check component specifications
-Prepare your workspace Step 1 Caption: All components laid out
-Step 2: Build the Power Supply
-
-Connect the power rails on the breadboard
-Connect Arduino 5V to breadboard positive rail
-Connect Arduino GND to breadboard negative rail Step 2 Caption: Power connections completed
-Step 3: Add Components
-
-Place LEDs on breadboard
-Connect resistors in series with LEDs
-Connect LED cathodes to GND
-Connect LED anodes to Arduino digital pins (2-6) Step 3 Caption: LED circuit assembled
-Step 4: [Continue for all steps...]
-
-Final Assembly: Final Build Caption: Completed project ready for testing
 
 For Scripts/CLI Tools:
 Command Reference
