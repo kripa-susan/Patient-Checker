@@ -121,7 +121,7 @@ Chatgpt
 
 Tool Used: Chatgpt
 
-Purpose: [What you used it for]
+Purpose: 
 
 Example: "Generated boilerplate React components"
 Example: "Debugging assistance for async functions"
@@ -142,9 +142,7 @@ UI/UX design decisions
 Note: Proper documentation of AI usage demonstrates transparency and earns bonus points in evaluation!
 
 Team Contributions
-[Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-[Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-[Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
-License
-This project is licensed under the [LICENSE_NAME] License - see the LICENSE file for details.
+Kripa Susan Gregory T: Front End
+Gopika P: Back End
+
 
