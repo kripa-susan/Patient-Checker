@@ -61,7 +61,8 @@ Patient → Frontend → Backend API → Database
 If medicine missed → Alert Trigger → Caretaker Notification
 
 Build Photos
-![Team](Add photo of your team here)
+[Team](https://github.com/user-attachments/assets/1825b4cf-7d0c-4574-8400-22b5363b251a)
+
 
 API Documentation
 Base URL:https://patientchecker.netlify.app/
