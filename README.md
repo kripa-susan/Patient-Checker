@@ -103,14 +103,17 @@ If medicine missed → Alert Trigger → Caretaker Notification
 ##### Endpoints
 
 **GET /api/endpoint**
-- **Description:**
-- {
+- **Description:** Retrieves user information, including their name and whether they have taken their medicine.
+- **Response:**
+```json
+  {
   "status": "success",
   "data": {
     "name": "John",
     "medicineTaken": true
   }
 }
+```
 
 **POST /api/endpoint**
 - **Description:** Submit daily health update
